@@ -1,0 +1,10 @@
+name: WirelessRedstone
+version: '${project.version}'
+main: org.nattyantv.wirelessredstone.WirelessRedstone
+api-version: 1.19
+
+commands:
+  wr:
+    description: WirelessRedstone command
+    aliases: [wirelessredstone, wirelessredstone, wr]
+    usage: /wr <command> [...args]
